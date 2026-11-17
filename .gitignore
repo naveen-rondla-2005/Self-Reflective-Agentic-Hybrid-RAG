@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Vector Store Database (generated locally)
+chroma_db/
+
+# Operating System & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
